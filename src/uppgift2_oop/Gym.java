@@ -65,7 +65,6 @@ public class Gym {
             LocalDate today = LocalDate.now();
             Duration d = Duration.between(ld.atStartOfDay(), today.atStartOfDay());
             
-            System.out.println(d.toDays());
             if(d.toDays() < 365){
                 System.out.println(c.getName() + " har ett giltigt medlemskap.");
                 System.out.println("Sista betalningsdatum var: " + c.getFeePaidDate() + "\n");
@@ -88,9 +87,11 @@ public class Gym {
         for(Customer c : customerList){
             if(str.toLowerCase().equals(c.getName().toLowerCase())){
                 customer = c;
+                return c;
             }
             if(str.equals(c.getPersonalnumber())){
                 customer = c;
+                return c;
             }
         }         
         return customer;
