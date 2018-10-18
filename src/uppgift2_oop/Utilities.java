@@ -17,7 +17,7 @@ public class Utilities {
         System.out.println("*****************************************************");
 //        System.out.println("Välkommen till Gymsystemet");
 //        System.out.println();
-        System.out.println("Välj någon av följande alternativ och mata in siffra(0-3).");
+        System.out.println("Välj någon av följande alternativ och mata in en siffra(0-3).");
         System.out.println("----------------------------------");
         System.out.println("0. Avsluta programmet");
         System.out.println("1. Kolla medlemskap");
