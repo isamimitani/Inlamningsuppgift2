@@ -71,7 +71,7 @@ public class Utilities {
         }  
     }
     
-    public static String getErrorMessege(){
+    public static String getErrorMessage(){
         return "Ogiltig inmatning. Försök igen.";
     }
     

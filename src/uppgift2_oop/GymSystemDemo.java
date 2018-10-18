@@ -20,7 +20,7 @@ public class GymSystemDemo {
             if(checkInput(input)){
                 executeSelected(gym, input);
             } else {
-                System.out.println(getErrorMessege());
+                System.out.println(getErrorMessage());
             }
   
         }                
